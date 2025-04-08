@@ -69,22 +69,22 @@ const About: React.FC = () => {
                     <div className="grid md:grid-cols-4 gap-6">
                         {[
                             {
-                                name: "Ebrahim Ahmed",
+                                name: "Md Ebrahim Khalil",
                                 role: "Vice President",
                                 image: ebrahim
                             },
                             {
-                                name: "Soroar Hossain",
+                                name: "Deloar Jahan",
                                 role: "Programme Director",
                                 image: deloar
                             },
                             {
-                                name: "Papri Khatun",
+                                name: "Sanzida Rahman Papri",
                                 role: "Deputy Secretary",
                                 image: papri
                             },
                             {
-                                name: "Asif Reza",
+                                name: "Md Ashif Ali",
                                 role: "Treasurer",
                                 image: asif
                             }

@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 const Footer: React.FC = () => {
     return (
-        <footer className="bg-blue-900 dark:bg-gray-900 text-white py-12">
-            <div className="container mx-auto px-4">
+        <footer className="bg-blue-900 dark:bg-gray-900 text-white">
+            <div className="container mx-auto px-4 py-12">
                 <div className="grid md:grid-cols-2 gap-8 mb-8">
                     {/* Left Side */}
                     <div>
@@ -79,11 +79,15 @@ const Footer: React.FC = () => {
                         </div>
                     </div>
                 </div>
-                <div className="border-t border-gray-700 pt-8 text-center">
-                    <p className="text-gray-400">
-                        © 2025 STEM Wander. All Rights Reserved.
-                    </p>
+
+                <div className="border-t border-gray-700 pt-8 text-center text-gray-400">
+                    <p>© 2025 STEM Wander. All Rights Reserved.</p>
                 </div>
+            </div>
+
+            {/* Bottom bar */}
+            <div className="bg-orange-500 text-white text-center py-3">
+                Developed by BitOriole
             </div>
         </footer>
     );

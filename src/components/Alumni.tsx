@@ -8,13 +8,13 @@ import asif from '../assets/asif.jpg';
 
 const advisors = [
     {
-        name: 'Ebrahim Hossain',
+        name: 'Md Ebrahim Khalil',
         title: 'Vice President of STEM Wander',
         img: ebrahim,
     },
 
     {
-        name: 'Asif Mahmud',
+        name: 'Md Ashif Ali',
         title: 'Treseurar of STEM Wander',
         img: asif,
     },
@@ -25,9 +25,9 @@ const advisors = [
         title: 'Secretary of STEM Wander',
         img: soroar,
     },
-    
+
     {
-        name: 'Papri Akter',
+        name: 'Sanzida Rahman Papri',
         title: 'Deputy Secretary of STEM Wander',
         img: papri,
     },
