@@ -1,54 +1,47 @@
-# React + TypeScript + Vite
+# 🌐 STEM Wander
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+STEM Wander is a modern, responsive web platform dedicated to promoting STEM (Science, Technology, Engineering, and Mathematics) education through interactive events, team collaboration, and community engagement.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📨 Contact Form with email integration
+- 🧑‍🤝‍🧑 Dynamic Team Section
+- 📅 Animated Event Slider
+- 🎯 Mission and Values Highlights
+- 🌙 Light/Dark Theme Support
+- 💻 Fully Responsive Design
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+src/ ├── assets/ # Static images (e.g., profile pictures) ├── components/ # Reusable React components ├── pages/ # Pages like Home, About, Contact ├── App.tsx # Root component ├── index.tsx # Entry point └── ...
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🛠️ Tech Stack
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- **React** + **TypeScript**
+- **Tailwind CSS**
+- **Lucide Icons**
+- **EmailJS / FormSubmit** *(for contact form)*
+- **Responsive Design** with CSS Grid & Flexbox
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📬 Contact Form Setup
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+This project sends messages to:  
+**📧 mdrokon1104@gmail.com**
+
+To enable the contact form:
+- Use [FormSubmit](https://formsubmit.co/) or [EmailJS](https://www.emailjs.com/)
+- Configure your form action or API setup
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/your-username/stem-wander.git
+cd stem-wander
+npm install
+npm run dev # or npm start
+
+✍️ Author
+Rokon – Facebook | Instagram | LinkedIn
+
+📝 License
+This project is licensed under the MIT License.
